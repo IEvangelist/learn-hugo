@@ -30,3 +30,23 @@ Change directory, navigating into the newly created site folder. Then, open __Vi
 ```
 cd learn-hugo && code .
 ```
+
+## Adding Content
+
+To add chapters, invoke the `hugo new` command with the `--kind chapter` switch - additionally specifying the folder and markdown file name. This command will add a "Getting Started" chapter.
+
+```
+hugo new --kind chapter getting-started/_index.md
+```
+
+To add sub-pages, invoke the `hugo new` with the top-level chapter, sub folder and markdown file.
+
+```
+hugo new getting-started/hugo/index.md
+```
+
+Add content to these markdown files to see how it renders. Test your site out locally with the following command, note that this also has "Live Reload" for convenient development.
+
+```
+hugo serve
+```

@@ -65,23 +65,4 @@ This isn't required, but really eliminates all the noise from the various local 
 
 We could add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore.
 
-```
-touch .gitignore
-```
-
-Open the `.gitignore` file, copy and paste the following snippet into it.
-
-```
-# Hugo default output directory
-/public
-
-## OS Files
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# OSX
-.DS_Store
-```
+{{%attachments title=".gitignore file" style="grey"%}}
