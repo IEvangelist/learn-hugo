@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Learning HUGO"
 
@@ -8,3 +8,11 @@ theme = "hugo-theme-learn"
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  author = "David Pine"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableAssetsBusting = false
+  themeVariant = "red"

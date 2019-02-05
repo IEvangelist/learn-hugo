@@ -56,3 +56,32 @@ Now, let's push our latest source upstream.
 ```
 git push upstream master
 ```
+
+### Git Ignore
+
+We need to add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore.
+
+```
+touch .gitignore
+```
+
+Open the `.gitignore` file, copy and paste the following snippet into it.
+
+```
+# Hugo default output directory
+/public
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+```
+
+{{% notice info %}}
+This isn't required, but really eliminates all the noise from the various local builds.
+{{% /notice %}}
