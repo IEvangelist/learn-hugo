@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Up &amp; Running with Hugo on Learning HUGO</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Up &amp; Running with Hugo on Learning HUGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo New</title>
+      <link>http://example.org/getting-started/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/hugo/</guid>
+      <description>Hugo Commands Let&amp;rsquo;s start by finding the desired working directory for the hugo site. This directory will be the location in which you develop your site and also serve as your local git repository, more on that later. Execute the following command to create a new hugo website.
+hugo new site learn-hugo  Change directory, navigating into the newly created site folder. Then, open Visual Studio Code in with this folder as the command line argument.</description>
+    </item>
+    
+    <item>
+      <title>Git - Source Control</title>
+      <link>http://example.org/getting-started/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/git/</guid>
+      <description>Initialize Git From the root directory of the newly created hugo site, invoke the following command. This will initialize the directory for git source control - enabling various source control specific features. For more details on this and other git commands please see git docs.
+git init  With the source control tracking in place, we need to add a submodule. We&amp;rsquo;ll execute the git submodule add command with the desired theme URL and given path.</description>
+    </item>
+    
+    <item>
+      <title>Config</title>
+      <link>http://example.org/getting-started/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/config/</guid>
+      <description> Configure Hugo Add the following to the end of the config.toml file. For more details on the various configurations, please see configure hugo. This will configure the theme in hugo, enabling it to consume the previously added &amp;ldquo;hugo-theme-learn&amp;rdquo; theme.
+# Change the default theme to be use when building the site with Hugo theme = &amp;quot;hugo-theme-learn&amp;quot; # For search functionality [outputs] home = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;, &amp;quot;JSON&amp;quot;]  </description>
+    </item>
+    
+    <item>
+      <title>Netlify</title>
+      <link>http://example.org/deploying/netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/deploying/netlify/</guid>
+      <description>Configure Netlify Login to Netlify and click &amp;ldquo;New site from Git&amp;rdquo;. Now, click the  GitHub button. At the bottom of the screen is a link that reads &amp;ldquo;Configure the Netlify app on GitHub&amp;rdquo;. This will open a new window, where you&amp;rsquo;re able to Select repositories that enable Netlify to pull from.
+The defaults are perfectly acceptable, as Netlify sees your repository as a Hugo site and configures this automatically.</description>
+    </item>
+    
+  </channel>
+</rss>

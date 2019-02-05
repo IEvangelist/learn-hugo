@@ -1,0 +1,64 @@
+[
+{
+	"uri": "http://example.org/getting-started/hugo/",
+	"title": "Hugo New",
+	"tags": [],
+	"description": "",
+	"content": " Hugo Commands Let\u0026rsquo;s start by finding the desired working directory for the hugo site. This directory will be the location in which you develop your site and also serve as your local git repository, more on that later. Execute the following command to create a new hugo website.\nhugo new site learn-hugo  Change directory, navigating into the newly created site folder. Then, open Visual Studio Code in with this folder as the command line argument.\ncd learn-hugo \u0026amp;\u0026amp; code .  "
+},
+{
+	"uri": "http://example.org/getting-started/git/",
+	"title": "Git - Source Control",
+	"tags": [],
+	"description": "",
+	"content": " Initialize Git From the root directory of the newly created hugo site, invoke the following command. This will initialize the directory for git source control - enabling various source control specific features. For more details on this and other git commands please see git docs.\ngit init  With the source control tracking in place, we need to add a submodule. We\u0026rsquo;ll execute the git submodule add command with the desired theme URL and given path.\ngit submodule add https://github.com/matcornic/hugo-theme-learn themes/hugo-theme-learn  Remote Repository Open https://github.com/new to create a new remote repository. Name it accordingly. Do not change any other defaults. Click \u0026ldquo;Create Repository\u0026rdquo;.\nConfigure Remote From the Git command line, if you were execute git remote -v it will tell you what remote branches are configured. The list should be empty right now, but let\u0026rsquo;s change that.\ngit remote add upstream https://github.com/IEvangelist/learn-hugo.git  λ git remote -v upstream https://github.com/IEvangelist/learn-hugo.git (fetch) upstream https://github.com/IEvangelist/learn-hugo.git (push)  Git Flow Now, we\u0026rsquo;ll add all of our code to staging.\ngit add -A  I often use git status to check the status of local changes. Let\u0026rsquo;s commit the changes with a commit message.\ngit commit -m \u0026quot;Yay, I have working code!\u0026quot;  Now, let\u0026rsquo;s push our latest source upstream.\ngit push upstream master  "
+},
+{
+	"uri": "http://example.org/getting-started/config/",
+	"title": "Config",
+	"tags": [],
+	"description": "",
+	"content": " Configure Hugo Add the following to the end of the config.toml file. For more details on the various configurations, please see configure hugo. This will configure the theme in hugo, enabling it to consume the previously added \u0026ldquo;hugo-theme-learn\u0026rdquo; theme.\n# Change the default theme to be use when building the site with Hugo theme = \u0026quot;hugo-theme-learn\u0026quot; # For search functionality [outputs] home = [ \u0026quot;HTML\u0026quot;, \u0026quot;RSS\u0026quot;, \u0026quot;JSON\u0026quot;]  "
+},
+{
+	"uri": "http://example.org/getting-started/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 1 Getting Started "
+},
+{
+	"uri": "http://example.org/",
+	"title": "Up &amp; Running with Hugo",
+	"tags": [],
+	"description": "",
+	"content": " Up \u0026amp; Running with Hugo Welcome to \u0026ldquo;Up and Running with Hugo\u0026rdquo;. Dynamic websites built with platforms like Wordpress are a dying breed, giving way to static websites. Tools like Jekyll, Ghost, Gatsby and Hugo are leading the charge. In this talk we\u0026rsquo;ll discuss what Hugo is and how you can leverage it to build a blog site. Literally in a matter of minutes you\u0026rsquo;ll have a professional looking blog site up and running. We\u0026rsquo;ll cover how to host it entirely for free on Netlify. Finally, we\u0026rsquo;ll cover how to synchronize GitHub \u0026amp; Netlify, such that commits to your remote branch automatically build and deploy your blog site.\nPrerequisites Rather than sitting around waiting for everyone to download and install the tooling - if you plan on attending this talk you can prepare by meeting the following prerequisites.\n\r Working knowledge of Markdown GitHub Account - Sign up Netlify Account - Sign up Git CLI - Download (or other Git Tool) Hugo Executable - Install  "
+},
+{
+	"uri": "http://example.org/deploying/",
+	"title": "Deploying",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 2 Deploying "
+},
+{
+	"uri": "http://example.org/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/deploying/netlify/",
+	"title": "Netlify",
+	"tags": [],
+	"description": "",
+	"content": " Configure Netlify Login to Netlify and click \u0026ldquo;New site from Git\u0026rdquo;. Now, click the  GitHub button. At the bottom of the screen is a link that reads \u0026ldquo;Configure the Netlify app on GitHub\u0026rdquo;. This will open a new window, where you\u0026rsquo;re able to Select repositories that enable Netlify to pull from.\nThe defaults are perfectly acceptable, as Netlify sees your repository as a Hugo site and configures this automatically. It knows to build the site using the hugo command and that the public directory is where your rendered site resides.\n"
+},
+{
+	"uri": "http://example.org/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
