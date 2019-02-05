@@ -26,8 +26,7 @@
 		{{else}}
 			<li>
 				<a href="{{ (printf "%s%s/%s" $fileDir ($.Scratch.Get "filesName") .Name) | relURL }}" 
-				   target="_blank" download
-				   title="Download {{ .Name }}">
+				   target="_blank" download title="Download {{ .Name }}">
 					<i class="fas fa-file-download"></i> {{.Name}}
 				</a>
 				({{ math.Ceil $fileSize }} KB)
