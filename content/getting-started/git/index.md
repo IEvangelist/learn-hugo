@@ -59,7 +59,11 @@ git push upstream master
 
 ### Git Ignore
 
-We need to add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore.
+{{% notice tip %}}
+This isn't required, but really eliminates all the noise from the various local builds.
+{{% /notice %}}
+
+We could add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore.
 
 ```
 touch .gitignore
@@ -81,7 +85,3 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 ```
-
-{{% notice info %}}
-This isn't required, but really eliminates all the noise from the various local builds.
-{{% /notice %}}

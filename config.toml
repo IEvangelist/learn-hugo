@@ -15,7 +15,7 @@ home = [ "HTML", "RSS", "JSON"]
   disableBreadcrumb = false
   disableNextPrev = false
   disableAssetsBusting = false
-  themeVariant = "red"
+  themeVariant = "rad"
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github Repository"
