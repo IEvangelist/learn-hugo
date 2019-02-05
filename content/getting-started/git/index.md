@@ -63,11 +63,7 @@ git push upstream master
 This isn't required, but really eliminates all the noise from the various local builds.
 {{% /notice %}}
 
-We could add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore.
-
-{{%attachments title=".gitignore file" style="grey"%}}
-
-Here are the contents of the `.gitignore` file.
+We could add a `.gitignore` file so that we can specify a few things for __Git__ to ... well, ignore. Here are the contents of the `.gitignore` file.
 
 ```
 # Hugo default output directory
