@@ -9,4 +9,4 @@ Login to <a href='https://app.netlify.com/account/sites' target='_blank'>Netlify
 
 The defaults are perfectly acceptable, as __Netlify__ sees your repository as a __Hugo__ site and configures this automatically. It knows to build the site using the `hugo` command and that the _public_ directory is where your rendered site resides.
 
-![Netlify Continuous Deployment](/deploying/netlify/images/cd.png?classes=shadow,border)
+![Netlify Continuous Deployment](/deploying/netlify/images/cd.png?classes=shadow,border,full)
