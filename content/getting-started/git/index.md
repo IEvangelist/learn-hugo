@@ -3,7 +3,7 @@ title: "Git - Source Control"
 weight: 2
 ---
 
-## Initialize Git
+## Initialize
 
 From the root directory of the newly created hugo site, invoke the following command. This will initialize the directory for git source control - enabling various source control specific features. For more details on this and other git commands please see <a href='https://git-scm.com/about' target='_blank'>git docs</a>.
 
@@ -57,7 +57,7 @@ Now, let's push our latest source upstream.
 git push upstream master
 ```
 
-### Git Ignore
+## Git Ignore
 
 {{% notice tip %}}
 This isn't required, but really eliminates all the noise from the various local builds.

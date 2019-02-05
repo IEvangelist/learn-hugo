@@ -1,5 +1,5 @@
 ---
-title: "Hugo New"
+title: "Hugo"
 weight: 1
 ---
 
@@ -13,7 +13,7 @@ You might be asking yourself, "what is a static site?". Who here has heard of <i
 
 > Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. <cite><a href='https://gohugo.io/' target='_blank'>Hugo</a></cite>
 
-## Themes
+# Themes
 
 There are nearly 1,000 pre-built themes. <a href='https://themes.gohugo.io/' target='_blank'>Hugo Themes</a>
 

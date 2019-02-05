@@ -22,3 +22,7 @@ graph LR;
     class C red
     class C b
 {{< /mermaid >}}
+
+## Enjoy!
+
+That's it, literally... from not having anything at all in place to now having a fully functioning blog site!
