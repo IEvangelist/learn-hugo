@@ -16,3 +16,15 @@ home = [ "HTML", "RSS", "JSON"]
   disableNextPrev = false
   disableAssetsBusting = false
   themeVariant = "red"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github Repository"
+identifier = "learn-hugo"
+url = "https://github.com/IEvangelist/learn-hugo"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-twitter'></i> Follow @davidpine7"
+identifier = "twitter"
+url = "https://twitter.com/davidpine7"
+weight = 2
