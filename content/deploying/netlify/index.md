@@ -1,5 +1,6 @@
 ---
 title: "Netlify"
+weight: 1
 ---
 
 ## Configure Netlify
