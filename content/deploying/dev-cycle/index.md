@@ -26,7 +26,3 @@ graph LR;
 ## Enjoy!
 
 That's it, literally... from not having anything at all in place to now having a fully functioning blog site!
-
-# Wow, it is really FAST!
-
-whatever I type...
